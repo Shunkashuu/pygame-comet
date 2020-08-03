@@ -18,4 +18,4 @@ Don't use for commercial use, only for testing the game
 
 ## Status
 
-Work in progress. You can move the character.
+Work in progress. You can move the character, defeat monsters and restart the game.
