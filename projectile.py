@@ -1,6 +1,7 @@
 import pygame
 pygame.init()
 
+
 # define the class that will handle the player's projectile
 class Projectile(pygame.sprite.Sprite):
 
@@ -29,6 +30,11 @@ class Projectile(pygame.sprite.Sprite):
     def move(self):
         self.rect.x += self.velocity
         self.rotate()
+
+        # check to see if the projectile collides with a monster.
+        if self.player.game.check_collision(self, self.player.game.all_monsters):
+            # remove the bullet
+            self.remove()
 
         # check if the projectile is no longer present on the screen
         if self.rect.x > 1080:

@@ -29,6 +29,12 @@ while running:
     for projectile in game.player.all_projectile:
         projectile.move()
 
+    for monster in game.all_monsters:
+        monster.forward()
+
+    # apply all the images of the monsters group
+    game.all_monsters.draw(screen)
+
     # apply all the images of the projectile group
     game.player.all_projectile.draw(screen)
 
