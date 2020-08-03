@@ -1,5 +1,6 @@
 import pygame
 from player import Player
+pygame.init()
 
 # create a second class that will represent the game.
 class Game:
