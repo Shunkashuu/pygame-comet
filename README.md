@@ -6,6 +6,10 @@ A simple game to practice Python and Pygame.
 
 This game is in 2D the goal is to kill the enemies and make the best score possible by avoiding comets.
 
+## How to use it
+
+You need to install the latest version of Python and have an IDE like PyCharm or Visual Studio Code. when the game's done developing, I plan to compile it into an executable.
+
 ## Badges
 
 ![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg) ![ForTheBadge built-with-python](https://forthebadge.com/images/badges/made-with-python.svg) ![ForTheBadge uses-html](https://forthebadge.com/images/badges/uses-html.svg) ![ForTheBadge uses-css](https://forthebadge.com/images/badges/uses-css.svg)
